@@ -1,0 +1,188 @@
+body {
+  background: #333;
+  color: #fff;
+  overflow: unset;
+}
+
+.logo {
+  opacity: 0.9;
+  width: 180px;
+  height: 50px;
+  border: 2px solid coral;
+  box-shadow: 0 0 8px;
+}
+
+.aboutHeader {
+  background-color: #45589e;
+  border-radius: 5px;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+#slider img {
+  width: inherit;
+  height: -webkit-fill-available;
+}
+
+#home .dark-overlay {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 560px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#home .home-inner {
+  padding-top: 150px;
+}
+
+#home .card-form {
+  opacity: 0.7;
+}
+
+#home .card-form ::placeholder {
+  color: white;
+}
+
+#home .fas,
+#create-section .fas {
+  color: #008ed6;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#about .fas {
+  background: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hotel img {
+  border-radius: 90px;
+}
+
+#about {
+  padding-top: 4.5rem;
+  padding-bottom: 2rem;
+}
+
+.aboutHeader {
+  opacity: 0.8;
+  background-color: coral;
+  border: solid coral 6px;
+}
+
+.hotelImg {
+  max-height: 300px;
+}
+
+#gallery {
+  padding-top: 4.5rem;
+  background: #555;
+  cursor: none;
+}
+
+.flag {
+  height: 19px;
+}
+
+.flags {
+  width: 80px;
+  min-width: 0;
+}
+
+#contactModal {
+  opacity: 0.98;
+  background-color: #333;
+}
+
+.info1 h5,
+.info1 h6,
+.info2 h5 {
+  color: #888;
+}
+
+.info1 p,
+.info2 p {
+  font-size: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #bbb;
+}
+
+footer {
+  background-color: #222;
+}
+
+@media (max-width: 575px) {
+  #contactInfo {
+    width: 100%;
+  }
+
+  #contactMsg {
+    width: 100%;
+    text-align: center;
+  }
+
+  #locationInfo {
+    display: none;
+  }
+
+  .sky {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 991px) {
+  #home {
+    height: 70vh;
+    background: url("../img/home2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 560px;
+  }
+}
+
+/* @media (min-width: 1200px) {
+  #home {
+    height: 100vh;
+  }
+
+  #home .dark-overlay {
+    height: 100vh;
+  }
+
+  .home1 {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  .home2 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  #about {
+    height: 70vh;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+
+  #about p {
+    margin-top: 2rem;
+  }
+
+  #gallery {
+    height: 60vh;
+  }
+
+
+} */
